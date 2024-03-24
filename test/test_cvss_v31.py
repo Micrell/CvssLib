@@ -1,6 +1,6 @@
-from models.cvss.abs.abc_cvss import CvssVersion, CvssSeverity
-from models.cvss.cvss_v3 import *
-from models.cvss.cvss_v31 import *
+from abs.abc_cvss import *
+from cvss.cvss_v3 import *
+from cvss.cvss_v31 import CvssV31
 
 prim_dict_cvss_v31 = [{
     "source": "nvd@nist.gov",
